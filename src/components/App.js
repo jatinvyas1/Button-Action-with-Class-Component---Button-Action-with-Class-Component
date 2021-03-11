@@ -7,6 +7,7 @@ class App extends Component {
     this.state({
       showPara: false,
     });
+    this.handleClick = this.handleClick.bind(this);
   }
   handleClick() {
     this.setState({ showPara: true });
